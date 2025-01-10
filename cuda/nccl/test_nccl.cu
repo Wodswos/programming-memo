@@ -1,6 +1,6 @@
 /******************************************************
- * 文件名: test_nccl.cu
- * 编译 & 运行: make test_nccl && mpirun -np 2 ./test_nccl
+ * filename: test_nccl.cu
+ * compile & run: make test_nccl && mpirun -np 2 ./test_nccl
  ******************************************************/
 
 /*
