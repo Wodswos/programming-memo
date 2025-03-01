@@ -1,4 +1,4 @@
-#include "libexample.h"
+#include "mylib.h"
 
 int main() {
     hello();
