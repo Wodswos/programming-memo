@@ -19,5 +19,10 @@ test_pipe: pipe.c
 	./test_pipe
 	rm -f test_pipe
 
+test_spawn: posix_spawn.c
+	$(CC) -o test_spawn $^
+	./test_spawn
+	rm -f test_spawn
+
 clean:
 	rm -f test_enum
