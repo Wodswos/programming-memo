@@ -1,8 +1,8 @@
 ifeq ($(shell uname -s), Darwin)
     CC = clang++
-    FRAMEWORKS = -framework Foundation
 else
-    CC = gcc
+    CC = g++
+	CFLAGS = -lrt
 endif
 
 # clang++ or clang -lc++
