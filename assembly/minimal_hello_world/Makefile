@@ -1,5 +1,7 @@
 # .S need preprocess
 
+# try `strace` on linux to trace the system call.
+
 aarch_linux:
 	gcc -E hello_aarch_linux.S # or cpp hello_aarch_linux.S
 	as -o hello.o hello.s
