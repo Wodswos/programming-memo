@@ -22,6 +22,9 @@ void quickSort(int arr[], int low, int high){
     if (high - low <= 0)  return;
     int pivot_index = low, left_index = low + 1, right_index = high;
 
+    // 参考 hoare 分区方案和 Lomuto 分区方案
+    // 这里是自己实现的一个分区方案，交换次数会有点多。
+
     while(left_index <= right_index){
         if (arr[left_index] < arr[pivot_index]){
             int tmp = arr[pivot_index];
